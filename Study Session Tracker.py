@@ -97,8 +97,8 @@ class TrackerCLI:
             for k, v in data.items():
                 print(f"{k:<12} {v} hrs")
 
-        print("\n🗓 Last 7 days:", self.tracker.hours_in_days(7))
-        print("🔥 Active days:", self.tracker.active_days())
+        print("\n Last 7 days:", self.tracker.hours_in_days(7))
+        print(" Active days:", self.tracker.active_days())
 
     def run(self):
         while True:
